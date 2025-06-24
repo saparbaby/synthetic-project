@@ -22,28 +22,6 @@
 | BI Dashboard    | Apache Superset                       |
 | Containerization| Docker, Docker Compose                |
 
----
-
-## Repository Structure
-synthetic-project/
-├── airflow/dags/ # Airflow DAG for data load
-│ └── cks_load_to_clickhouse.py
-├── assets/ # Superset dashboard screenshots
-│ └── *.jpg
-├── clickhouse_engine/ # ClickHouse connection engine
-│ └── clickhouse_engine.py
-├── data/ # Final datasets
-│ └── cks_synthetic.csv
-│ └── kezekte_dummy.csv
-│ └── e_obr_dummy.csv
-│ └── CKS.csv # Original reference
-├── generator/ # Data synthesis code
-│ └── *.py
-├── docker-compose.yml # Full stack configuration
-├── Dockerfile, Dockerfile.airflow
-├── requirements.airflow.txt, requirements.superset.txt
-├── .gitignore
-└── README.md
 
 
 
